@@ -11,6 +11,6 @@ Pasos para hacer el efecto parallax
    let rellax = new Rellax('.rellax')
    - el .rellax será la forma en la que estará concatenada a nuestra clase en html.
    
-5. En las clases del html tenemos que agregar lo siguiente el rellax y el data-rellax-speed (Pondremos un numero a bajar)
+5. En las clases del html de las imagenes, tenemos que agregar lo siguiente el rellax y el data-rellax-speed (Pondremos un numero a bajar)
 
  <div class="imagen_slider rellax" data-rellax-speed="-6" style="background-image: url() ;"></div>
