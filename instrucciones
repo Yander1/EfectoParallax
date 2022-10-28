@@ -1,0 +1,16 @@
+Pasos para hacer el efecto parallax
+
+1. primero tenemos que recortar la imagen en 4 partes, quitando fondo, esto ayudará a que se pueda meter en texto entre dos imagenes, y que se haga el efecto. Es ideal que si es una persona o un iobjeto no sea muy grande, para que el efecto se pueda vizualizar de mejor manera.
+
+2. añadimos los estilos con tal que se ocupe bien la imagen.
+
+3. después de haber agregado las imagenes, en las clases, tenemos que importar el rellax.min.js de
+   https://github.com/dixonandmoe/rellax
+
+4. En uno de nuestros js hacemos el llamado a rellax
+   let rellax = new Rellax('.rellax')
+   - el .rellax será la forma en la que estará concatenada a nuestra clase en html.
+   
+5. En las clases del html tenemos que agregar lo siguiente el rellax y el data-rellax-speed (Pondremos un numero a bajar)
+
+ <div class="imagen_slider rellax" data-rellax-speed="-6" style="background-image: url() ;"></div>
